@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/contents/ico/favico.ico" type="image/x-icon" />
+    {%block head%}{%endblock%}
+</head>
+<body>
+    <header>
+        <div>
+            <a href="/">Sobre</a>
+            <a href="/classes">Aulas</a>
+            <a href="/">Atividades</a>
+        </div>
+    </header>
+       
+    {% block content %}
+    {% endblock %}
+
+    <script src="/scripts.js"></script>
+</body>
+</html>
