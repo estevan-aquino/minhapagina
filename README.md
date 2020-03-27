@@ -4,6 +4,8 @@ I'm just testing some stuff, and using things that i learned or that i'am learni
 
 Fell free to explore my code!
 
+https://img.shields.io/github/last-commit/Steven-exe/minhapagina
+
 If you want to run it:
 
 ```
