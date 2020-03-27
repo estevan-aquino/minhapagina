@@ -1,4 +1,4 @@
-Hello there!
+# Hello there!
 
 I'm just testing some stuff, and using things that i learned or that i'am learning =) 
 
@@ -8,11 +8,13 @@ Fell free to explore my code!
 
 This code is currently using:
 
--Nunjucks
+- Nunjucks
 
--Nodemon
+- Nodemon
 
--Express
+- Express
+
+## Testing
 
 Make sure you have <a href="https://nodejs.org/en/">Node</a> installed!
 
