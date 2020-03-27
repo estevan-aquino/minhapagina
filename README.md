@@ -16,6 +16,6 @@ npm start
 
 Now go to your browser and type : http://localhost:5000
 
-I will and more things in the future!
+I will add more things in the future!
 
 UwU
