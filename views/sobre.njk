@@ -6,11 +6,11 @@
 
 {%block conteudo%}
             <div id="wrapper">
-                <img src="/contents/img/YellowF.png" alt="imagem de perfil Estevan">
+                <img src="{{sobre.avatar_url}}" alt="Imagem de {{sobre.nome}}">
                     <div>
-                        <h1>Estevan Aquino</h1>
-                        <h2>Web developer & Artist</h2>
-                        <p>-- "Tenho 20 anos, sou formado em Desing Gráfico e em Análise e Desenvolvimento de Sistemas, gosto de jogar vários tipos de jogos diferentes 🕹️ , sou cristão 🙌 e estou focado em estudar programação para um dia me tornar um lendário developer FullStack!" 👨‍💻😉</p>
+                        <h1>{{sobre.nome}}</h1>
+                        <h2>{{sobre.role}}</h2>
+                        <p>{{sobre.description}}</p>
                     </div>
             </div>
 {%endblock%}

@@ -13,22 +13,29 @@
 
         <section class="cards">
 
-            <div class="card" id="5qap5aO4i9A">
+            {%for item in items%}
+            <div class="card {{'onlivecard' if item.onlive}}" id="{{item.id}}">
                 <div class="card_image-container">
-                    <img src="https://img.youtube.com/vi/5qap5aO4i9A/maxresdefault.jpg" alt="Fotinha de Lofi pra teste :)">
+                    <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="Imagem de {{item.title}}">
+                    {% if item.onlive%}
+                        <div class="onlive">Ao Vivo</div>
+                    {%endif%}
                 </div>
                 <div class="card_content">
-                    <p>lofi hip hop radio - beats to relax/study to</p>
+                    <p>{{item.title}}</p>
                 </div>
                 <div class="card_info">
                     <p>Channel:</p>
-                    <p class="channelinf">Chilled Cow</p>
+                    <p class="channelinf">{{item.channel}}</p>
                 </div>
             </div>
+            {%endfor%}
 
         </section>
 
-        <div class="modal-overlay">
+
+
+        {# <div class="modal-overlay">
             <div class="modal">
                 <a class="close-modal">
                     <i class="material-icons">close</i>
@@ -39,5 +46,5 @@
                     <iframe src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 </div>
             </div>
-        </div>
+        </div> #}
 {%endblock%}

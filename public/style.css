@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto:400,700&display=swap";
 :root{
-    --color-cartaz: #ff8426;
+    --color-cartaz: #2c0794;
 }
 
 *{
@@ -100,6 +100,12 @@ header div a:hover{
     background-color: var(--color-cartaz);
     padding: 10px;
     cursor: pointer;
+    display: grid;
+}
+
+.onlivecard.card{
+    position: relative;
+    
 }
 
 .card_image-container img {
@@ -109,12 +115,14 @@ header div a:hover{
 .card_content, 
 .card_info {
     padding: 24px;
+    filter: brightness(90%);
 }
 
 .card_info{
     display: grid;
     grid-template-columns : 1fr 1fr;
-
+    align-items: center;
+    
 }
 
 .channelinf{
@@ -123,10 +131,22 @@ header div a:hover{
     padding: 5px 20px;
     text-align: center;
 }
+/* ONLIVE */
+
+.onlive{
+    background: #ff1010;
+    position: absolute;
+    width: 80px;
+    height: auto;
+    text-align: center;
+    border-radius: 20px;
+    left: 160px;  
+    top: 130px;
+}
 
 
 /* === Modal === */
-
+/* 
 .modal-overlay{
     background-color: rgba(0,0,0,0.7);
     width: 100%;
@@ -151,11 +171,11 @@ header div a:hover{
     right: 8px;
     top: 8px;
     cursor: pointer;
-}
+} */
 
 /* === Modal Active === */
 
-.modal-overlay.active{
+/* .modal-overlay.active{
     opacity: 1;
     visibility: visible;
 }
@@ -165,4 +185,43 @@ header div a:hover{
     height: 90%;
     position: absolute;
     top: 5%;
+} */
+
+/* VIDEO PAGE */
+
+#player {
+    text-align: center;
+    text-shadow: #16171a 2px 2px;
+    padding-top: 100px;
 }
+
+#player h1{
+    padding: 10px 0px;
+}
+
+
+.die{
+    background-color: var(--color-cartaz);
+    padding: 20px;
+    margin: 0px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.card_video-container{
+    width: 100%;
+    height: 500px;
+}
+
+.card_video-container iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.card_content{
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+}
+
