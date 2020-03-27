@@ -4,7 +4,7 @@ I'm just testing some stuff, and using things that i learned or that i'am learni
 
 Fell free to explore my code!
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](./LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/Steven-exe/minhapagina)
 
 If you want to run it:
 
