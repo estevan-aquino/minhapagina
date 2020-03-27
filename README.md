@@ -7,6 +7,16 @@ Fell free to explore my code!
 ![GitHub last commit](https://img.shields.io/github/last-commit/Steven-exe/minhapagina)
 ![Status WorkInProgress](https://img.shields.io/badge/Status-Work%20in%20Progress-blueviolet)
 
+This code is currently using:
+
+-Nunjucks
+
+-Nodemon
+
+-Express
+
+Make sure you have <a href="https://nodejs.org/en/">Node</a> installed!
+
 If you want to run it:
 
 ```
