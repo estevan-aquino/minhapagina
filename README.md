@@ -1,4 +1,6 @@
-Hello There! I'm just testing some stuff and using thing that that i learned or that i am learning =) 
+Hello there!
+
+I'm just testing some stuff, and using things that i learned or that i'am learning =) 
 
 Fell free to explore my code!
 
@@ -7,7 +9,6 @@ If you want to run it:
 ```
 npm install
 ```
-
 and to start a web server:
 
 ```
